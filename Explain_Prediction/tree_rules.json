@@ -1,0 +1,31 @@
+{
+    "result": [
+        {
+            "max_Timebase_40_Mill_Stands_dl_F4_Servo_Valve_DS_Group_1 <= 0.59": [
+                {
+                    "min_Timebase_40_Mill_Stands_dl_F4_PositiveBending_RodSide_Pressure <= 12052332.00": [
+                        {
+                            "min_Timebase_40_Mill_Process_eg_F2_ForwardSlip <= -27.70": "class 1"
+                        },
+                        {
+                            "min_Timebase_40_Mill_Process_eg_F2_ForwardSlip >  -27.70": "class 0"
+                        }
+                    ]
+                },
+                {
+                    "min_Timebase_40_Mill_Stands_dl_F4_PositiveBending_RodSide_Pressure >  12052332.00": "class 0"
+                }
+            ]
+        },
+        {
+            "max_Timebase_40_Mill_Stands_dl_F4_Servo_Valve_DS_Group_1 >  0.59": [
+                {
+                    "min_Timebase_40_Mill_Stands_dl_F3_NegativeBending_RodSide_Pressure <= 19036994.00": "class 1"
+                },
+                {
+                    "min_Timebase_40_Mill_Stands_dl_F3_NegativeBending_RodSide_Pressure >  19036994.00": "class 0"
+                }
+            ]
+        }
+    ]
+}
